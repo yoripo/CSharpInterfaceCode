@@ -1,3 +1,13 @@
+public void Main(){
+    // オブジェクトの作成
+    IVehicle myCar = new Car("Toyota");
+    IVehicle myBicycle = new Bicycle("Bianchi");
+    
+    // メソッドの呼び出し
+    myCar.Move();  // "Toyota is moving on four wheels."と出力
+    myBicycle.Move(); // "Bianchi is moving on two wheels."と出力
+
+}
 public interface IVehicle
 {
     string Name { get; set; }
