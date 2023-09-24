@@ -1,0 +1,2 @@
+# CSharpInterfaceRPGCharaSample
+C#インターフェースのサンプル
